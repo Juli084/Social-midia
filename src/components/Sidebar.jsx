@@ -1,3 +1,5 @@
+import { WhatsappLogo } from "phosphor-react";
+
 import styles from "./Sidebar.module.css";
 
 export function Sidebar () {
@@ -8,13 +10,17 @@ export function Sidebar () {
             />
 
             <div className={styles.profile}>
+                <img className={styles.avatar} src="./src/assets/avatar.jpg" 
+                />
+
                 <strong>Júlio Rodrigues</strong>
                 <span>Full Stack Developer</span>
             </div>
 
             <footer>
-                <a href="#">
-                    Editar seu perfil
+                <a href="http://wa.me/5515997534529" target="_blank">
+                    <WhatsappLogo size={40} />
+                    Vamos tomar um café?
                 </a>
             </footer>
         </aside>
