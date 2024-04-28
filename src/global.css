@@ -8,6 +8,7 @@
     --gray-800: #282826;
     --gray-900: #121201;
 
+    --green-400: #99B37B;
     --green-600: #007788;
 }
 
@@ -23,7 +24,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
+body, input, text-area, button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1rem;
