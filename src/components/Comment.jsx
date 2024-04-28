@@ -20,17 +20,14 @@ export function Comment () {
                     </header>
 
                     <p>Parabéns Dev!</p>
-
                 </div>
                 <footer>
                     <button>
                         <ThumbsUp />
                         Aplaudir <span>20</span>
-                    </button>
-                    
+                    </button>                    
                 </footer>
             </div>
-
         </div>
     )
 }
