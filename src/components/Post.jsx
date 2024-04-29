@@ -20,7 +20,7 @@ export function Post () {
             <div className={styles.content}>
                 <p>Olá pessoal</p>
                 <p>Acabei de finalizar mais um projeto</p>
-                <p><a href="#">Aqui</a></p>
+                <p><a href="https://github.com/Juli084">Clique aqui</a></p>
                 <p>
                     <a href="">#novo projeto</a>{' '}
                     <a href="">#evolucao</a>
