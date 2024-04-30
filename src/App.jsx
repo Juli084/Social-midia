@@ -6,6 +6,22 @@ import styles from "./App.module.css";
 
 import './global.css';
 
+const posts = [
+  {
+    id: 1,
+    author: {
+      avatarUrl: 'https://github.com/juli084.png',
+      name: 'Júlio Rodrigues',
+      role: Full Stack Developer,
+    },
+    content: [
+      {type: 'paragraph', content: 'Fala Dev, beleza?'},
+      {type: 'paragraph', content: 'Acabei de finalizar mais um projeto'},
+      {type: 'link', content: 'https://github.com/juli084.png'},
+    ],
+  },
+];
+
 function App() {
   return (
    <div>
